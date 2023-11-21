@@ -25,7 +25,15 @@ export default function Page() {
           </Link>
         </div>
         <div className='flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12'>
-          {/* Add Hero Images Here */}
+          {/* <Image> component (Chapter 3)
+          https://nextjs.org/learn/dashboard-app/optimizing-fonts-images
+          
+          An extension of the HTML <img> tag, and comes with automatic image optimization:
+
+          - Preventing layout shift automatically when images are loading.
+          - Resizing images to avoid shipping large images to devices with a smaller viewport.
+          - Lazy loading images by default (images load as they enter the viewport).
+          - Serving images in modern formats, like WebP and AVIF, when the browser supports it. */}
           <Image
             src='/hero-desktop.png'
             width={1000}
